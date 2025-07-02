@@ -7,4 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.115.12",
     "uvicorn[standard]>=0.34.3",
+    "passlib[bcrypt]>=1.7.4",
+    "python-jose[cryptography]>=3.3.0",
 ]
